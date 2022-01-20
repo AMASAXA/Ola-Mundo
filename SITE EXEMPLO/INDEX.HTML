@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,27 @@
    <br>
     <meta name="viewport" content="width, initial-scale=1.0">
   <style>
+    :root {
+      --bg-color: rgb(238, 31, 31);
+      --bg-second: #444;
+      --font-color: #fff;
+
+
+    }
+
       body {
-          display: flex;
+        background-color: var(--bg-color);
       }
       div {
         width: 200px;
         height: 200px;
         border: 3px solid #000;
+
   }
+  h1{
+    color: var(--bg-second);
+  }
+
   @media (orientation: landscape) {
     body {
         flex-direction: row;
@@ -34,7 +47,8 @@
    
 </head>
 <body>
-
+  <h1>projeto de estudo</h1>
+     
      <div>caixa 1</div>
      <div>caixa 2</div>
      <div>caixa 3</div>
